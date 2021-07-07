@@ -1,2 +1,1 @@
-# text2speech
-Text to Speech using python gTTS module
+# Text to Speech using python gTTS module
