@@ -19,7 +19,9 @@ except ModuleNotFoundError:
         reqfile = 'requirements.bat'
     else :
         reqfile = 'requirements.sh'    
-    print('Run the requirements file >',reqfile)    
+    print('Run the requirements file >',reqfile)
+    time.sleep(5)
+    exit()    
     
 
 
@@ -47,6 +49,7 @@ if langs == '-h' or langs == '-H' :
     time.sleep(5)
     print('Restarting program...')
     time.sleep(3)
+    clear()
     import text2speech
 
 elif langs == '' or langs == ' ' :
@@ -61,6 +64,8 @@ except ValueError:
     print('Invalid Language Code !')
     print('Restarting program...')
     time.sleep(5)
+    clear()
+    import text2speech
 else:
     tts.save('welcome_msg.mp3')
 
