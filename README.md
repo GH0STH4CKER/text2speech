@@ -7,7 +7,7 @@ Linux/Termux :</br>
 
 Windows :</br>
 
-Run requirements.bat</br></br>
+Run requirements.bat</br>
 
 
 <h2>Clonning & Running</h2></br>
