@@ -1,1 +1,3 @@
-# Text to Speech using python gTTS module
+# Text to Speech using python gtts module
+
+[installing instructions will be published soon]
