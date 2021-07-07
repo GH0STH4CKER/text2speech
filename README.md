@@ -3,7 +3,7 @@
 <h2>Installing required modules</h2></br>
 Linux/Termux :</br>
 
-```bash requirements.sh```</br></br>
+```bash requirements.sh```</br>
 
 Windows :</br>
 
